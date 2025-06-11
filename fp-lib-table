@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "imports")(type "KiCad")(uri "${KIPRJMOD}/imports/")(options "")(descr "connectors"))
+  (lib (name "LoRa1121F33")(type "KiCad")(uri "${KIPRJMOD}/LoRa1121F33.pretty")(options "")(descr ""))
+)
