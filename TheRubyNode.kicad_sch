@@ -2592,6 +2592,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -7050,6 +7157,10 @@
 		(uuid "0cef4a61-b6a8-4ad2-bfe3-5efa9696428e")
 	)
 	(no_connect
+		(at 123.19 69.85)
+		(uuid "11cdf12d-d2c3-47e7-8382-79dce195bea1")
+	)
+	(no_connect
 		(at 251.46 139.7)
 		(uuid "28edb58c-6d48-4cde-93c2-0de628ec68ab")
 	)
@@ -7094,6 +7205,14 @@
 		(uuid "9d6a0c95-2a78-444c-a13d-997b28b37ef9")
 	)
 	(no_connect
+		(at 140.97 69.85)
+		(uuid "a18e0999-e52c-4e26-ac85-255fd2602d1c")
+	)
+	(no_connect
+		(at 132.08 69.85)
+		(uuid "a26f2076-74ed-41c5-99c3-5ad3dce6bffe")
+	)
+	(no_connect
 		(at 92.71 29.21)
 		(uuid "b5fd65d6-9661-4908-80d8-e5029c8edafa")
 	)
@@ -7120,6 +7239,10 @@
 	(no_connect
 		(at 92.71 31.75)
 		(uuid "fac91df5-a61c-498e-9d04-15bb105871f1")
+	)
+	(no_connect
+		(at 149.86 69.85)
+		(uuid "fd878b42-e82d-4b14-a004-66b29267e9cc")
 	)
 	(wire
 		(pts
@@ -12572,7 +12695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 52.07 111.76 0)
 			(effects
 				(font
@@ -12640,7 +12763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 205.74 91.44 0)
 			(effects
 				(font
@@ -12767,7 +12890,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2m"
+		(property "Value" "0.1R"
 			(at 54.61 92.7099 0)
 			(effects
 				(font
@@ -12776,7 +12899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 52.07 91.44 0)
 			(effects
 				(font
@@ -13511,6 +13634,74 @@
 			(project ""
 				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 132.08 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fe1b6fc-06f3-4edc-a7ed-5a013a97e8c2")
+		(property "Reference" "H2"
+			(at 134.62 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 134.62 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 132.08 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec6e4e65-e745-4f53-9f62-1d9b5180ff7f")
+		)
+		(instances
+			(project "TheRubyNode"
+				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14392,6 +14583,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 140.97 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad2a1f4-6808-4c1f-8fa1-7241085e061f")
+		(property "Reference" "H3"
+			(at 143.51 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 143.51 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 140.97 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd5f6ae-8640-4b2f-8f50-15bddfcabe72")
+		)
+		(instances
+			(project "TheRubyNode"
+				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "prereqs:ISL97519A")
 		(at 152.4 36.83 0)
 		(unit 1)
@@ -14472,6 +14731,74 @@
 			(project ""
 				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5bf893-8461-4604-8983-e36bb80d1c7a")
+		(property "Reference" "H1"
+			(at 125.73 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 125.73 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148e9bcf-6849-4b3a-81bc-a0a53a4a485d")
+		)
+		(instances
+			(project ""
+				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -14612,6 +14939,74 @@
 			(project ""
 				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 149.86 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21448fe-d0d8-4f00-b963-2370e859f748")
+		(property "Reference" "H4"
+			(at 152.4 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 152.4 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d80fc9-4e26-45af-8bcb-46c1c1219f28")
+		)
+		(instances
+			(project "TheRubyNode"
+				(path "/184c400e-0df3-4ad6-97a3-37116025b5d8"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14984,7 +15379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -16342,7 +16737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 194.31 73.66 0)
 			(effects
 				(font
@@ -16410,7 +16805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -17053,7 +17448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -17123,7 +17518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 52.07 100.33 0)
 			(effects
 				(font
