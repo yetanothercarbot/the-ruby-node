@@ -9508,6 +9508,66 @@
 		)
 		(uuid "ff82ac4f-2371-4f04-aea8-b9fb9ca5bd99")
 	)
+	(label "IO16"
+		(at 209.55 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06bf9f80-a8be-414c-bc46-5b636fa50dbe")
+	)
+	(label "IO48"
+		(at 251.46 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "485cdf87-a2a1-467d-8740-e5cc1f780c81")
+	)
+	(label "IO47"
+		(at 254 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d372eb3-4740-47fe-9f91-7df179be7c01")
+	)
+	(label "IO15"
+		(at 209.55 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "819ac20c-64b3-4a7d-94e6-9acc8703360d")
+	)
+	(label "IO46"
+		(at 256.54 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ae89620-3689-4d72-9f05-3b9939480b38")
+	)
+	(label "IO12"
+		(at 200.66 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ea44dc1-f22b-4aa5-91c3-6a6c930556eb")
+	)
 	(global_label "IO2"
 		(shape input)
 		(at 261.62 26.67 0)
